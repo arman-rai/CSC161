@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-    std::string myStr {appleman};
+    std::string myStr {"appleman"};
 
-    if (string.size(myStr) == string.length(myStr)) {
-        return true;
+    if (myStr.size() == myStr.length()) {
+        cout << "same" <<endl;
     }
 
     return 0;
