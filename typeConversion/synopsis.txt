@@ -1,0 +1,24 @@
+can be four types
+    primitive to basic
+    primitive to user defined class
+    user defined class to primitive
+    user defined class to 
+
+can convert source type to destination types
+source class generally need operator type casting function and destination class needs parameterized constructor
+it returns some value of type destination
+however, if some value is primitive then, operator type casting function is not required
+similarly, if destination is primitive, then constructor is not required
+the parameter is of type of source
+
+basic to basic
+    automatic conversion (implicit)
+    example : long + double + float = long
+                int = float + double  // converts to integer
+
+    explicit conversion
+        paranthesis() dine
+
+basic to userDefined
+userDefined to basic
+userDefined to userDefined
